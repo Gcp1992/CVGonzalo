@@ -1,0 +1,119 @@
+<div class="container-fluid no-padding">
+
+  <nav class="navbar navbar-expand-lg">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+      <ul class="navbar-nav w-100 justify-content-around">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="">Presentación</a>
+        </li>
+        <li class="nav-item">
+          <!--Añadimos este atributo para hacer la navegación al componente Blog al hacer clic-->
+          <a class="nav-link" routerLink="/blog">Blog</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <h1 class="text-center text-light mt-5">GONZALO DE LA CRUZ PÉREZ</h1>
+  <h3 class="text-center text-light">DESARROLLADOR WEB</h3>
+
+  <div id="carouselExample" class="carousel slide border-bottom mt-5">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2020/02/lenguaje-programacion-1859691.jpg?tf=3840x" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+              <h3 class="bg-primary bg-opacity-50 rounded">"Además de un buen código, se debe tratar de que la experiencia del usuario sea fluida y satisfactoria.
+                Para mí, la usabilidad es tan importante como la funcionalidad."</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://www.aulacreactiva.com/wp-content/uploads/2020/09/IMG-1-diseno-web.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+              <h3 class="bg-primary bg-opacity-50 rounded">"La colaboración es esencial para el éxito del equipo en cualquier proyecto de desarrollo web."</h3>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="https://inforges.es/wp-content/uploads/2022/03/tendencias-seo-2022-optimizacion-posicionamiento-web.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-flex h-100 align-items-center justify-content-center">
+              <h3 class="bg-primary bg-opacity-50 rounded">"Importantísimo tomar todas las medidas necesarias para proteger los datos y la privacidad de los usuarios"</h3>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+  <div class="container-cards mt-5 d-flex justify-content-around">
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-header text-center">
+        Habilidades técnicas
+      </div>
+      <ul class="list-group list-group-flush text-center">
+        <li class="list-group-item">Java</li>
+        <li class="list-group-item">JavaScript</li>
+        <li class="list-group-item">HTML</li>
+        <li class="list-group-item">CSS</li>
+        <li class="list-group-item">PHP</li>
+        <li class="list-group-item">Angular</li>
+        <li class="list-group-item">Git & Github</li>
+      </ul>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <div class="card-header text-center">
+        Habilidades suaves
+      </div>
+      <ul class="list-group list-group-flush text-center">
+        <li class="list-group-item">Trabajador</li>
+        <li class="list-group-item">Cooperativo</li>
+        <li class="list-group-item">Ganas de mejorar y aprender</li>
+        <li class="list-group-item">Empatía</li>
+        <li class="list-group-item">Buen gusto por el diseño</li>
+        <li class="list-group-item">Generador de buen ambiente</li>
+        <li class="list-group-item">Afable</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <h1 class="text-center text-light mt-5">CONTACTA CONMIGO</h1>
+
+  <div class="container-formulario mt-5">
+    <div class="row mx-auto d-flex justify-content-center align-items-center text-center">
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1" class="text-white">Nombre:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre completo">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1" class="text-white">Email:</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="direccionEmail@example.com">
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1" class="text-white">Mensaje: </label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Mensaje"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary mx-auto mt-2 border">Enviar</button>
+
+      </form>
+    </div>
+  </div>
+
+  <footer class="text-white py-3 mt-5">
+    <div class="container text-center">
+      <p>&copy; 2023 Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+</div>

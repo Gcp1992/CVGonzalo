@@ -1,0 +1,43 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid{
+  background-image: url('https://traptoreditorial.com/wp-content/uploads/2016/04/fondo-minimalista-negro-minimalist-background-fondo-sitio-web-minimalista-fondo-negro-web.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+}
+
+.navbar-brand-white {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.carousel-item img {
+  max-height: 570px;
+}
+
+.card-header{
+  background-color: #3411C0;
+  color: white;
+}
+
+.list-group-item{
+  background-color: #11034A;
+  color: white;
+}
+
+.form-control {
+  background-color: #3411C0;
+}
+
+::-webkit-input-placeholder {
+  color: white;
+}
